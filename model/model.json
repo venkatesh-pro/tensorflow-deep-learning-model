@@ -6,7 +6,7 @@
     "keras_version": "2.6.0",
     "backend": "tensorflow",
     "model_config": {
-      "class_name": "Functional",
+      "class_name": "Sequential",
       "config": {
         "name": "model_1",
         "layers": [
@@ -23,7 +23,7 @@
             "inbound_nodes": []
           },
           {
-            "class_name": "Functional",
+            "class_name": "Sequential",
             "config": {
               "name": "efficientnetb0",
               "layers": [
